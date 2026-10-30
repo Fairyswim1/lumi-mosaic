@@ -1,0 +1,47 @@
+{
+  "visualReview": true,
+  "references": [
+    {
+      "filename": "미래엔_중학교수학1_교과서_8-4_상대도수와그그래프.pdf",
+      "sha256": "14685356c20c18bbf58b866c4ec13363b28b1cd4f2586740c8f5a79c1c974c45",
+      "pdfPages": [
+        1,
+        2,
+        3
+      ],
+      "printedPages": [
+        261,
+        262,
+        263
+      ],
+      "concepts": [
+        "상대도수=각 계급의 도수/도수의 총합",
+        "상대도수 합 1",
+        "총합이 다른 두 집단은 상대도수로 비교",
+        "히스토그램 형태의 상대도수 그래프"
+      ],
+      "visualReview": {
+        "internalImages": [
+          "curriculum/lumi-source-1.png",
+          "curriculum/lumi-source-2.png",
+          "curriculum/lumi-source-3.png"
+        ]
+      }
+    }
+  ],
+  "curriculum": {
+    "code": "9수04-03",
+    "standardPages": [
+      46
+    ],
+    "interpretationPages": [
+      47
+    ],
+    "scope": "게임은 색 범주의 비율 배분 모델; 독립 과제는 수치 자료의 계급별 표·히스토그램·비교로 전이 확인. 도수분포다각형 작성은 미확인."
+  },
+  "misconceptions": [
+    "부분의 개수가 많으면 상대도수도 크다고 판단",
+    "총합 대신 다른 계급의 도수로 나눔",
+    "합이 1인 조건 누락"
+  ]
+}

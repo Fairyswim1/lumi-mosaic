@@ -1,0 +1,52 @@
+{
+  "game": "lumi-mosaic",
+  "version": "2026.10.31.1",
+  "source": {
+    "title": "교육부 고시 제2022-33호 [별책8] 수학과 교육과정",
+    "sha256": "a11706f7c7a8e0aa650a4d08549895ff10f7920b1bee7b2c2f4ce79ad3795ac8",
+    "assessmentPages": [
+      53,
+      54,
+      55
+    ]
+  },
+  "standards": [
+    {
+      "code": "9수04-03",
+      "text": "상대도수를 구하고, 상대도수의 분포를 표나 그래프로 나타내고 해석할 수 있다.",
+      "page": 46,
+      "printedPage": 40,
+      "skills": {
+        "compute": "새 자료로 상대도수 표 완성",
+        "represent": "계급별 상대도수 히스토그램 작성",
+        "interpret": "상대도수 그래프의 여러 계급 해석",
+        "compare": "총합이 다른 집단 비교"
+      },
+      "rubric": "부분/전체의 분모 확인, 그래프 축·계급·높이 대응, 집단별 상대도수와 목적을 근거로 설명. 설명은 함께 읽는 사람이 검토.",
+      "limit": "수치 표본 과제만 확인. 도수분포다각형 작성 및 열린 통계 탐구는 미확인. 게임 승리나 점수는 공식 이수 판정이 아님."
+    }
+  ],
+  "interpretation": {
+    "pages": [
+      47
+    ],
+    "printedPages": [
+      41
+    ],
+    "review": "9수04-03 해설: 도수 총합이 다른 두 집단의 분포 비교에서 간단히 다루고 필요성과 유용성 인식. 각 두 과제에서 크기가 다른 집단의 비교와 이유를 요구."
+  },
+  "independence": {
+    "requiredDistinctFirstNoHelp": 2,
+    "retriesIndependent": false,
+    "gameWinEvidence": false
+  },
+  "records": {
+    "firstResponse": true,
+    "incorrect": true,
+    "retry": true,
+    "help": true,
+    "explanation": true,
+    "teacherReview": true,
+    "export": "print dialog; no JSON UI"
+  }
+}

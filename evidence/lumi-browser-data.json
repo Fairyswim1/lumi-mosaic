@@ -1,0 +1,183 @@
+{
+  "wins": [
+    {
+      "round": 1,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 2,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 3,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 4,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 5,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 6,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 7,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 8,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 9,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 10,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 11,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    },
+    {
+      "round": 12,
+      "message": "모든 비율을 맞췄어요! 온실에 불빛이 돌아왔어요.",
+      "next": true
+    }
+  ],
+  "mobile": [
+    {
+      "round": 1,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 2,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 3,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 4,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 5,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 6,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 7,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 8,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 9,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 10,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 11,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    },
+    {
+      "round": 12,
+      "overflow": 0,
+      "page": 376,
+      "width": 376
+    }
+  ],
+  "fail": "지금 배치로는 목표를 맞출 수 없어요. 한 수 전이나 다시 시작을 써 보세요.",
+  "assessment": {
+    "blank": "빈칸을 모두 채워 주세요.",
+    "wrong": "전체 도수로 나누었는지, 비교할 계급의 비율을 모두 더했는지 다시 살펴보세요.",
+    "report": "상대도수 계산 · 처음 스스로 맞춘 과제 1 / 2\n\n그래프 만들기 · 처음 스스로 맞춘 과제 2 / 2\n\n그래프 읽기 · 처음 스스로 맞춘 과제 2 / 2\n\n두 집단 비교 · 처음 스스로 맞춘 과제 2 / 2",
+    "review": "전체로 나누는 계산을 확인했고, 비교할 때 두 비율의 수치도 써 보도록 피드백을 남김.",
+    "mobile": {
+      "page": 376,
+      "width": 376
+    }
+  },
+  "assessmentResults": [
+    {
+      "id": "c1",
+      "result": "수치 판단이 맞았어요. 내 설명도 읽어 보세요."
+    },
+    {
+      "id": "c2",
+      "result": "수치 판단이 맞았어요. 내 설명도 읽어 보세요."
+    },
+    {
+      "id": "r1",
+      "result": "수치 판단이 맞았어요. 내 설명도 읽어 보세요."
+    },
+    {
+      "id": "r2",
+      "result": "수치 판단이 맞았어요. 내 설명도 읽어 보세요."
+    },
+    {
+      "id": "i1",
+      "result": "수치 판단이 맞았어요. 내 설명도 읽어 보세요."
+    },
+    {
+      "id": "i2",
+      "result": "수치 판단이 맞았어요. 내 설명도 읽어 보세요."
+    },
+    {
+      "id": "x1",
+      "result": "수치 판단이 맞았어요. 내 설명도 읽어 보세요."
+    },
+    {
+      "id": "x2",
+      "result": "수치 판단이 맞았어요. 내 설명도 읽어 보세요."
+    }
+  ]
+}

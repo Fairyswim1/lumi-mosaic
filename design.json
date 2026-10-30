@@ -1,0 +1,154 @@
+{
+  "goal": "꾸러미를 나누지 않고 창에 놓아 모든 창의 색 비율을 맞춘다.",
+  "actions": [
+    "꾸러미 선택",
+    "놓을 창 선택",
+    "필요할 때 한 수 전"
+  ],
+  "candidates": [
+    {
+      "name": "Azul",
+      "source": "https://www.asmodee.co.uk/blogs/news/how-to-play-azul",
+      "rule": "같은 색 묶음 선택과 한 줄 배치, 넘치는 자원 손실",
+      "chosen": true,
+      "adaptation": "선택한 혼합 꾸러미 전체를 한 창에 배분; 창의 목표를 상대도수로 표현. 경쟁·벽 점수·라운드 드래프트는 가져오지 않음."
+    },
+    {
+      "name": "Sagrada",
+      "source": "https://floodgategames.com/Sagrada/Sagrada-Rules-Floodgate-Games-SA01.pdf",
+      "rule": "공용 주사위를 골라 창의 색·숫자·인접 제약에 배치",
+      "chosen": false,
+      "reason": "색/숫자/인접 규칙을 동시에 배우면 규칙이 복잡함."
+    },
+    {
+      "name": "Kingdomino",
+      "source": "https://www.blueorangegames.com/webroot/img/games/rules/cfa0f38157341a002eab1100aab478ea-Kingdomino-Rules-US-2nd-Edition.pdf",
+      "rule": "같은 지형이 닿도록 5×5 안에 도미노 배치",
+      "chosen": false,
+      "reason": "상대도수보다 지형 연결과 넓이 계산이 중심이 됨."
+    }
+  ],
+  "referencesAreMechanicsOnly": true,
+  "originalArtwork": true,
+  "mathTransformation": "정해진 전체의 색 개수를 상대도수 목표로 역산하며 나눌 수 없는 꾸러미를 두세 창에 배분한다.",
+  "stages": [
+    {
+      "round": 1,
+      "title": "첫 빛의 창",
+      "decision": "반씩 나누는 창",
+      "reason": "같은 전체에서 절반을 채워요.",
+      "windows": 2,
+      "packCount": 4,
+      "actionBudget": 10
+    },
+    {
+      "round": 2,
+      "title": "크기가 다른 두 창",
+      "decision": "같은 비율, 다른 개수",
+      "reason": "같은 0.5라도 전체가 다르면 필요한 개수가 달라요.",
+      "windows": 2,
+      "packCount": 3,
+      "actionBudget": 9
+    },
+    {
+      "round": 3,
+      "title": "개수의 착시",
+      "decision": "같은 개수, 다른 비율",
+      "reason": "청록 2개가 두 창에서 차지하는 비율을 비교해요.",
+      "windows": 2,
+      "packCount": 4,
+      "actionBudget": 10
+    },
+    {
+      "round": 4,
+      "title": "가장 큰 꾸러미",
+      "decision": "작은 창을 남기기",
+      "reason": "큰 꾸러미를 먼저 작은 창에 쓰면 나머지가 막힐 수 있어요.",
+      "windows": 2,
+      "packCount": 4,
+      "actionBudget": 10
+    },
+    {
+      "round": 5,
+      "title": "엇갈린 빛",
+      "decision": "한쪽만 보지 않기",
+      "reason": "두 창의 목표를 함께 보고 꾸러미를 남겨요.",
+      "windows": 2,
+      "packCount": 5,
+      "actionBudget": 9
+    },
+    {
+      "round": 6,
+      "title": "남겨 둔 한 조각",
+      "decision": "나눌 수 없는 묶음",
+      "reason": "한 개짜리 꾸러미가 꼭 필요한 곳을 찾아요.",
+      "windows": 2,
+      "packCount": 5,
+      "actionBudget": 9
+    },
+    {
+      "round": 7,
+      "title": "장밋빛 첫 등장",
+      "decision": "세 범주의 합",
+      "reason": "세 색의 상대도수를 합하면 1이에요.",
+      "windows": 2,
+      "packCount": 4,
+      "actionBudget": 8
+    },
+    {
+      "round": 8,
+      "title": "장미를 남겨요",
+      "decision": "희소한 색 배분",
+      "reason": "장미가 든 꾸러미를 두 창에 어떻게 나눌까요?",
+      "windows": 2,
+      "packCount": 5,
+      "actionBudget": 9
+    },
+    {
+      "round": 9,
+      "title": "세 창의 약속",
+      "decision": "세 목표 연결",
+      "reason": "한 창을 완성하면서 다른 두 창의 몫을 남겨요.",
+      "windows": 3,
+      "packCount": 6,
+      "actionBudget": 8
+    },
+    {
+      "round": 10,
+      "title": "같은 빛 다른 창",
+      "decision": "분모가 다른 비교",
+      "reason": "같은 분포를 크기가 다른 창에 만들어요.",
+      "windows": 2,
+      "packCount": 6,
+      "actionBudget": 8
+    },
+    {
+      "round": 11,
+      "title": "고요한 마지막 틈",
+      "decision": "빈칸과 비율을 함께",
+      "reason": "작은 꾸러미를 큰 창에 먼저 쓰면 다른 창을 못 채울 수 있어요.",
+      "windows": 3,
+      "packCount": 7,
+      "actionBudget": 9
+    },
+    {
+      "round": 12,
+      "title": "온실이 깨어나는 밤",
+      "decision": "세 판단의 결합",
+      "reason": "전체·비율·남길 꾸러미를 함께 생각해 온실을 밝혀요.",
+      "windows": 3,
+      "packCount": 8,
+      "actionBudget": 10
+    }
+  ],
+  "decisionTypes": [
+    "분모가 달라지는 같은 비율·개수 비교",
+    "나눌 수 없는 꾸러미와 남은 용량 맞추기",
+    "희소한 색과 작은 꾸러미를 여러 창에 남기기"
+  ],
+  "counterexample": "round4 largest-first first-fitting traps; independently tested",
+  "resourceTradeoff": "되돌리기 1회+다시 놓기 1회는 여유 손길 2개를 소비. round12에서 한 번 복구 가능, 두 번 반복은 완성 전 자원 소진. 시간 압박 없음.",
+  "rewards": "12개 불빛 수집, 3별 품질 재도전, 완주 온실 엔딩",
+  "learningClaim": "학생 대상 재미·학습 효과는 검증되지 않음",
+  "assessmentLimit": "수치 표본 과제만 확인. 도수분포다각형 작성 및 열린 통계 탐구는 미확인. 게임 승리나 점수는 공식 이수 판정이 아님."
+}

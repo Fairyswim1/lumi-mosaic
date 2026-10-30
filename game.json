@@ -1,0 +1,47 @@
+{
+  "id": "lumi-mosaic",
+  "title": "루미 모자이크",
+  "subtitle": "비율로 물드는 창",
+  "grade": 1,
+  "unit": "8-4 상대도수와 그 그래프",
+  "category": "자료와 가능성",
+  "version": "1.0.0",
+  "description": "나눌 수 없는 색유리 꾸러미를 크기가 다른 창에 배분하세요. 전체 개수와 색의 비율, 다음 창에 남길 조각을 생각하며 12개의 창을 밝히는 퍼즐입니다.",
+  "tags": [
+    "상대도수",
+    "꾸러미 배분",
+    "남길 자원"
+  ],
+  "duration": "25–45분",
+  "assets": [
+    "assets/background.png",
+    "assets/button.png",
+    "assets/tile.png",
+    "assets/spirit.png",
+    "assets/round.png"
+  ],
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "controls": "assets/button.png",
+    "interactiveProp": "assets/tile.png",
+    "character": "assets/spirit.png",
+    "reward": "assets/spirit.png",
+    "roundNavigation": "assets/round.png"
+  },
+  "obstacles": "나눌 수 없는 꾸러미와 창 용량, 제한된 손길. 별도 적 없음.",
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "ending": true
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "spotlight": true,
+    "actualSuccess": true,
+    "skippable": true,
+    "replay": true,
+    "isolated": true
+  },
+  "repository": "https://github.com/Fairyswim1/lumi-mosaic",
+  "repositoryStatus": "created"
+}

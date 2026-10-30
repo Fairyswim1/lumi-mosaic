@@ -1,0 +1,37 @@
+{
+  "tool": "image_gen.imagegen",
+  "calls": 5,
+  "generatedAt": "2026-10-30T17:22:49.136Z",
+  "assets": [
+    {
+      "file": "background",
+      "role": "background",
+      "transparent": false,
+      "prompt": "Create a premium hand-painted fantasy game background, landscape 3:2. An abandoned moonlit stained-glass conservatory workshop on a floating island, turquoise teal stone arches and amber brass frames, magical glass lanterns, subtle ivy, distant stars. No people, no text, no logos, no UI. Quiet dark teal center and lower two thirds with space for readable gameplay panels; rich painterly detail at margins, golden light along top. Cozy mysterious atmosphere, polished illustrated board-game art, not photorealistic."
+    },
+    {
+      "file": "button",
+      "role": "controls",
+      "transparent": true,
+      "prompt": "Fantasy board game UI asset: one wide horizontal blank ivory parchment nameplate set in a refined antique brass frame with teal glass corners and small curling leaves. Front view, precisely centered, approximately 4:1 object aspect ratio, generous empty smooth ivory middle 75% for code-rendered text. Soft painterly texture, premium cozy stained glass conservatory art. No text, letters, icons or numerals. Isolated transparent background, no extra objects, compact outer margin."
+    },
+    {
+      "file": "tile",
+      "role": "interactive-prop",
+      "transparent": true,
+      "prompt": "Single game inventory item, a beveled rounded square luminous teal stained-glass tile, antique thin warm brass rim, delicate tiny leaf engraving at the corners, smooth translucent center. Front view no perspective so can tile repeatedly in a board. Polished hand painted fantasy board game art matching a moonlit conservatory. The entire tile visible, centered, minimal margin. No text, no numbers. True transparent background."
+    },
+    {
+      "file": "spirit",
+      "role": "character-and-reward",
+      "transparent": true,
+      "prompt": "One collectible reward and friendly guide character for a cozy fantasy puzzle game: a tiny elegant brass lantern spirit with a glowing teal glass body, two friendly golden eyes, delicate butterfly wings made of turquoise amber and rose stained glass. Sitting upright, inviting and calm, sophisticated storybook illustration for middle schoolers, not toddler art. Complete body visible, centered on true transparent background, no words, no shadows outside silhouette, hand-painted highlights, high quality."
+    },
+    {
+      "file": "round",
+      "role": "round-selection-and-collection",
+      "transparent": true,
+      "prompt": "One circular antique brass medallion game stage-selection button, a small ring of delicately engraved leaves framing an empty dark teal enamel center. Front-on symmetrical round badge, empty center about 65 percent of diameter for a number added in code. Hand-painted luxurious fantasy board game interface, polished gold highlights. True transparent background with small outer margin. No text, numbers, symbols or lettering."
+    }
+  ]
+}
