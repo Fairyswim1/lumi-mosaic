@@ -4,3 +4,5 @@
 @media print{body{background:white;color:#172b30}header,.note-nav,.note-controls,button{display:none}.note-panel{background:white;color:#172b30;border:0}table{color:#172b30}}
 
 .window{display:flex;flex-direction:column;justify-content:flex-start}.window .mosaic{width:100%;margin-top:auto}.inline-math .katex{font-size:1em}.goals .inline-math{display:inline-block}.goals>span{min-height:28px}.ratios .inline-math{display:inline-block}
+
+.window:disabled,.pack:disabled{opacity:1;cursor:default}.legacy{font-size:14px;color:#bdd4c7}

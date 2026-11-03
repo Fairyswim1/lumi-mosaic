@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-30T17:26:51.587Z",
+  "sourceHash": "956f4418a1e3330853f22e1550480e7bb8a319a675bec90ca8d47977fb09c71a",
+  "screenshots": [
+    "evidence/lumi-tutorial.png",
+    "evidence/lumi-ending.png",
+    "evidence/lumi-mobile.png",
+    "evidence/lumi-mobile-win.png",
+    "evidence/lumi-notes-mobile.png",
+    "evidence/lumi-graph-mobile.png",
+    "evidence/lumi-final-desktop.png"
+  ],
+  "campaign": {
+    "roundsPlayed": 12,
+    "allWon": true,
+    "mobileFinalRoundWon": true,
+    "failedAllocationRecovered": true,
+    "persistence": true,
+    "ending": true
+  },
+  "tutorial": {
+    "firstRun": true,
+    "keyboard": true,
+    "skip": true,
+    "replay": true,
+    "mobile": true,
+    "isolatedProgress": true
+  },
+  "audio": {
+    "effectSignal": "verified",
+    "physicalSpeakerListening": false
+  },
+  "assessment": {
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": false,
+    "exportNote": "Print handler implemented; native print dialog not tested.",
+    "jsonUiRemoved": true,
+    "codes": [
+      "9수04-03"
+    ],
+    "tasksPlayed": 8,
+    "firstWrongThenCorrectNotIndependent": true,
+    "studentExplanation": true,
+    "reviewPersisted": true
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "katexFractions": true,
+    "noHorizontalOverflow": true
+  },
+  "consoleErrors": []
+}

@@ -1,5 +1,5 @@
 {
-  "goal": "꾸러미를 나누지 않고 창에 놓아 모든 창의 색 비율을 맞춘다.",
+  "goal": "필요한 꾸러미만 골라 모든 창의 색 비율을 맞춘다. 남는 꾸러미는 사용하지 않아도 된다.",
   "actions": [
     "꾸러미 선택",
     "놓을 창 선택",
@@ -34,12 +34,31 @@
   "stages": [
     {
       "round": 1,
-      "title": "첫 빛의 창",
-      "decision": "반씩 나누는 창",
-      "reason": "같은 전체에서 절반을 채워요.",
+      "title": "골라 쓰는 첫 빛",
+      "decision": "모두 쓸 필요 없어요",
+      "reason": "전체 칸 수에 목표 비율을 곱해 필요한 색 개수를 생각해요. 남는 꾸러미는 그대로 두세요.",
       "windows": 2,
-      "packCount": 4,
-      "actionBudget": 10
+      "packCount": 5,
+      "actionBudget": 10,
+      "solution": [
+        {
+          "p": 0,
+          "w": 1
+        },
+        {
+          "p": 1,
+          "w": 0
+        },
+        {
+          "p": 3,
+          "w": 1
+        },
+        {
+          "p": 4,
+          "w": 0
+        }
+      ],
+      "counterexampleTest": "spare packs; ratio vs denominator introduction"
     },
     {
       "round": 2,
@@ -47,8 +66,23 @@
       "decision": "같은 비율, 다른 개수",
       "reason": "같은 0.5라도 전체가 다르면 필요한 개수가 달라요.",
       "windows": 2,
-      "packCount": 3,
-      "actionBudget": 9
+      "packCount": 4,
+      "actionBudget": 9,
+      "solution": [
+        {
+          "p": 0,
+          "w": 0
+        },
+        {
+          "p": 1,
+          "w": 1
+        },
+        {
+          "p": 3,
+          "w": 1
+        }
+      ],
+      "counterexampleTest": "spare packs; ratio vs denominator introduction"
     },
     {
       "round": 3,
@@ -56,17 +90,55 @@
       "decision": "같은 개수, 다른 비율",
       "reason": "청록 2개가 두 창에서 차지하는 비율을 비교해요.",
       "windows": 2,
-      "packCount": 4,
-      "actionBudget": 10
+      "packCount": 5,
+      "actionBudget": 10,
+      "solution": [
+        {
+          "p": 0,
+          "w": 1
+        },
+        {
+          "p": 1,
+          "w": 0
+        },
+        {
+          "p": 2,
+          "w": 0
+        },
+        {
+          "p": 3,
+          "w": 1
+        }
+      ],
+      "counterexampleTest": "spare packs; ratio vs denominator introduction"
     },
     {
       "round": 4,
-      "title": "가장 큰 꾸러미",
-      "decision": "작은 창을 남기기",
-      "reason": "큰 꾸러미를 먼저 작은 창에 쓰면 나머지가 막힐 수 있어요.",
+      "title": "맞는 창, 다른 선택",
+      "decision": "A창이 맞아도 끝이 아니에요",
+      "reason": "A창의 청록 비율은 0.5, B창은 0.75예요. B창에 필요한 혼합 꾸러미를 먼저 생각해요.",
       "windows": 2,
-      "packCount": 4,
-      "actionBudget": 10
+      "packCount": 5,
+      "actionBudget": 8,
+      "solution": [
+        {
+          "p": 1,
+          "w": 1
+        },
+        {
+          "p": 2,
+          "w": 0
+        },
+        {
+          "p": 3,
+          "w": 1
+        },
+        {
+          "p": 4,
+          "w": 0
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     },
     {
       "round": 5,
@@ -74,8 +146,31 @@
       "decision": "한쪽만 보지 않기",
       "reason": "두 창의 목표를 함께 보고 꾸러미를 남겨요.",
       "windows": 2,
-      "packCount": 5,
-      "actionBudget": 9
+      "packCount": 6,
+      "actionBudget": 9,
+      "solution": [
+        {
+          "p": 0,
+          "w": 1
+        },
+        {
+          "p": 1,
+          "w": 1
+        },
+        {
+          "p": 2,
+          "w": 1
+        },
+        {
+          "p": 4,
+          "w": 0
+        },
+        {
+          "p": 5,
+          "w": 0
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     },
     {
       "round": 6,
@@ -83,17 +178,59 @@
       "decision": "나눌 수 없는 묶음",
       "reason": "한 개짜리 꾸러미가 꼭 필요한 곳을 찾아요.",
       "windows": 2,
-      "packCount": 5,
-      "actionBudget": 9
+      "packCount": 6,
+      "actionBudget": 9,
+      "solution": [
+        {
+          "p": 0,
+          "w": 1
+        },
+        {
+          "p": 1,
+          "w": 0
+        },
+        {
+          "p": 2,
+          "w": 1
+        },
+        {
+          "p": 4,
+          "w": 1
+        },
+        {
+          "p": 5,
+          "w": 0
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     },
     {
       "round": 7,
       "title": "장밋빛 첫 등장",
-      "decision": "세 범주의 합",
-      "reason": "세 색의 상대도수를 합하면 1이에요.",
+      "decision": "세 색 중 남겨야 할 묶음",
+      "reason": "같은 비율을 만드는 조합도 남기는 색이 달라요. 두 창의 장미 몫을 비교해요.",
       "windows": 2,
-      "packCount": 4,
-      "actionBudget": 8
+      "packCount": 5,
+      "actionBudget": 8,
+      "solution": [
+        {
+          "p": 0,
+          "w": 0
+        },
+        {
+          "p": 1,
+          "w": 0
+        },
+        {
+          "p": 3,
+          "w": 1
+        },
+        {
+          "p": 4,
+          "w": 1
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     },
     {
       "round": 8,
@@ -101,8 +238,31 @@
       "decision": "희소한 색 배분",
       "reason": "장미가 든 꾸러미를 두 창에 어떻게 나눌까요?",
       "windows": 2,
-      "packCount": 5,
-      "actionBudget": 9
+      "packCount": 7,
+      "actionBudget": 9,
+      "solution": [
+        {
+          "p": 1,
+          "w": 1
+        },
+        {
+          "p": 3,
+          "w": 0
+        },
+        {
+          "p": 4,
+          "w": 0
+        },
+        {
+          "p": 5,
+          "w": 1
+        },
+        {
+          "p": 6,
+          "w": 1
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     },
     {
       "round": 9,
@@ -110,8 +270,35 @@
       "decision": "세 목표 연결",
       "reason": "한 창을 완성하면서 다른 두 창의 몫을 남겨요.",
       "windows": 3,
-      "packCount": 6,
-      "actionBudget": 8
+      "packCount": 8,
+      "actionBudget": 8,
+      "solution": [
+        {
+          "p": 1,
+          "w": 1
+        },
+        {
+          "p": 3,
+          "w": 0
+        },
+        {
+          "p": 4,
+          "w": 1
+        },
+        {
+          "p": 5,
+          "w": 2
+        },
+        {
+          "p": 6,
+          "w": 2
+        },
+        {
+          "p": 7,
+          "w": 0
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     },
     {
       "round": 10,
@@ -119,8 +306,35 @@
       "decision": "분모가 다른 비교",
       "reason": "같은 분포를 크기가 다른 창에 만들어요.",
       "windows": 2,
-      "packCount": 6,
-      "actionBudget": 8
+      "packCount": 7,
+      "actionBudget": 8,
+      "solution": [
+        {
+          "p": 0,
+          "w": 0
+        },
+        {
+          "p": 1,
+          "w": 1
+        },
+        {
+          "p": 2,
+          "w": 1
+        },
+        {
+          "p": 3,
+          "w": 1
+        },
+        {
+          "p": 4,
+          "w": 1
+        },
+        {
+          "p": 6,
+          "w": 1
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     },
     {
       "round": 11,
@@ -128,8 +342,39 @@
       "decision": "빈칸과 비율을 함께",
       "reason": "작은 꾸러미를 큰 창에 먼저 쓰면 다른 창을 못 채울 수 있어요.",
       "windows": 3,
-      "packCount": 7,
-      "actionBudget": 9
+      "packCount": 9,
+      "actionBudget": 9,
+      "solution": [
+        {
+          "p": 1,
+          "w": 0
+        },
+        {
+          "p": 2,
+          "w": 0
+        },
+        {
+          "p": 3,
+          "w": 1
+        },
+        {
+          "p": 5,
+          "w": 2
+        },
+        {
+          "p": 6,
+          "w": 1
+        },
+        {
+          "p": 7,
+          "w": 2
+        },
+        {
+          "p": 8,
+          "w": 2
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     },
     {
       "round": 12,
@@ -137,8 +382,43 @@
       "decision": "세 판단의 결합",
       "reason": "전체·비율·남길 꾸러미를 함께 생각해 온실을 밝혀요.",
       "windows": 3,
-      "packCount": 8,
-      "actionBudget": 10
+      "packCount": 10,
+      "actionBudget": 10,
+      "solution": [
+        {
+          "p": 1,
+          "w": 0
+        },
+        {
+          "p": 2,
+          "w": 2
+        },
+        {
+          "p": 3,
+          "w": 2
+        },
+        {
+          "p": 4,
+          "w": 0
+        },
+        {
+          "p": 5,
+          "w": 1
+        },
+        {
+          "p": 6,
+          "w": 1
+        },
+        {
+          "p": 7,
+          "w": 2
+        },
+        {
+          "p": 9,
+          "w": 0
+        }
+      ],
+      "counterexampleTest": "exact A window has both completable and dead-end choices; last window requires ratio judgement"
     }
   ],
   "decisionTypes": [
@@ -146,9 +426,12 @@
     "나눌 수 없는 꾸러미와 남은 용량 맞추기",
     "희소한 색과 작은 꾸러미를 여러 창에 남기기"
   ],
-  "counterexample": "round4 largest-first first-fitting traps; independently tested",
-  "resourceTradeoff": "되돌리기 1회+다시 놓기 1회는 여유 손길 2개를 소비. round12에서 한 번 복구 가능, 두 번 반복은 완성 전 자원 소진. 시간 압박 없음.",
+  "counterexample": "Independent subset-cover oracle proves exact-A dead ends and final-window capacity-only errors for every round 4–12.",
+  "resourceTradeoff": "한 수 전과 재배치는 각각 손길 1개. 여분 사용은 보상과 무관하며 필요 없는 꾸러미를 남겨도 최고 별. 시간 압박 없음.",
   "rewards": "12개 불빛 수집, 3별 품질 재도전, 완주 온실 엔딩",
   "learningClaim": "학생 대상 재미·학습 효과는 검증되지 않음",
-  "assessmentLimit": "수치 표본 과제만 확인. 도수분포다각형 작성 및 열린 통계 탐구는 미확인. 게임 승리나 점수는 공식 이수 판정이 아님."
+  "assessmentLimit": "수치 표본 과제만 확인. 도수분포다각형 작성 및 열린 통계 탐구는 미확인. 게임 승리나 점수는 공식 이수 판정이 아님.",
+  "version": "2.0.0",
+  "problemFixed": "v1의 전체 색 총량=창 정답 총량 때문에 마지막 창이 자동으로 맞았음. v2는 12개 모두 여분이 있고, 4–12의 A창 정답 일부가 전체 완성 불가능. 4–12 마지막 창에도 칸 수는 맞지만 비율이 틀린 대안이 존재.",
+  "progressMigration": "v1 저장은 변경하지 않고 이전 불빛 수를 별도로 표시. 새 퍼즐은 v2 저장에서 진행하고 생각 노트는 그대로 유지."
 }
