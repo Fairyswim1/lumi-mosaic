@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-03T01:55:30.895Z",
-  "sourceHash": "fc0f899e62a71a121d6ad057ab40ae52b3e3da6d9b8c707cab789b79e27cd6d5",
+  "sourceHash": "6cd667e6ecd10a37a430f510a612ef6924d9715096f0fb3a1e306179520d3984",
   "screenshots": [
     "evidence/lumi-tutorial.png",
     "evidence/lumi-ending.png",
@@ -76,5 +76,26 @@
   },
   "consoleErrors": [],
   "version": "2.0.0",
-  "captureNote": "Listed images are v1 historical visual references; existing generated assets, fonts and layout retained. New local Chrome captures timed out; no new screenshot claimed. v2 actual browser checks below were performed using visible DOM and controls."
+  "captureNote": "Listed images are v1 historical visual references; existing generated assets, fonts and layout retained. New local Chrome captures timed out; no new screenshot claimed. v2 actual browser checks below were performed using visible DOM and controls.",
+  "audioRefresh": {
+    "id": "lumi-mosaic",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  }
 }

@@ -1,0 +1,42 @@
+{
+  "title": "유리창의 아침",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "유리창의 아침",
+    "root": 64,
+    "bpm": 72,
+    "color": "glass",
+    "minor": false,
+    "motif": [
+      4,
+      7,
+      12,
+      11,
+      7,
+      4,
+      9,
+      7
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 72,
+      "seconds": 53.333333333333336,
+      "peak": 0.29017752901715355,
+      "rms": 0.06777633134758426,
+      "seamDelta": 0.005632583222710897,
+      "sha256": "4f7b14cb9f5e56c1ffb06772bb57c516a28b446724210f9311657a1ae8629f50"
+    },
+    {
+      "mode": "energy",
+      "bpm": 96,
+      "seconds": 40.0,
+      "peak": 0.3957834261346057,
+      "rms": 0.0938440758076914,
+      "seamDelta": 0.02470920563090255,
+      "sha256": "d37567c5f2508bd0a7aab7ce29ec62fc4654f964d7f6c657b524c538a282c7a7"
+    }
+  ]
+}

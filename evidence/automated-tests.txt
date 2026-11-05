@@ -2,194 +2,254 @@ TAP version 13
 # Subtest: c1 exact independent task and wrong response
 ok 1 - c1 exact independent task and wrong response
   ---
-  duration_ms: 4.2699
+  duration_ms: 1.8487
   ...
 # Subtest: c2 exact independent task and wrong response
 ok 2 - c2 exact independent task and wrong response
   ---
-  duration_ms: 0.2874
+  duration_ms: 0.1477
   ...
 # Subtest: r1 exact independent task and wrong response
 ok 3 - r1 exact independent task and wrong response
   ---
-  duration_ms: 0.3323
+  duration_ms: 0.1662
   ...
 # Subtest: r2 exact independent task and wrong response
 ok 4 - r2 exact independent task and wrong response
   ---
-  duration_ms: 0.2214
+  duration_ms: 0.1096
   ...
 # Subtest: i1 exact independent task and wrong response
 ok 5 - i1 exact independent task and wrong response
   ---
-  duration_ms: 0.3435
+  duration_ms: 0.1037
   ...
 # Subtest: i2 exact independent task and wrong response
 ok 6 - i2 exact independent task and wrong response
   ---
-  duration_ms: 0.2194
+  duration_ms: 0.0894
   ...
 # Subtest: x1 exact independent task and wrong response
 ok 7 - x1 exact independent task and wrong response
   ---
-  duration_ms: 0.3953
+  duration_ms: 0.1963
   ...
 # Subtest: x2 exact independent task and wrong response
 ok 8 - x2 exact independent task and wrong response
   ---
-  duration_ms: 0.1952
+  duration_ms: 0.0855
   ...
 # Subtest: first incorrect retry and help never count as independent
 ok 9 - first incorrect retry and help never count as independent
   ---
-  duration_ms: 5.3902
+  duration_ms: 2.6327
   ...
 # Subtest: distinct first independent tasks count once; duplicate submissions do not inflate
 ok 10 - distinct first independent tasks count once; duplicate submissions do not inflate
   ---
-  duration_ms: 0.9795
+  duration_ms: 0.5069
   ...
 # Subtest: round 1 independent subset cover wins while leaving spare packs
 ok 11 - round 1 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 4.6107
+  duration_ms: 2.8604
   ...
 # Subtest: round 2 independent subset cover wins while leaving spare packs
 ok 12 - round 2 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 0.8203
+  duration_ms: 0.4389
   ...
 # Subtest: round 3 independent subset cover wins while leaving spare packs
 ok 13 - round 3 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 0.2835
+  duration_ms: 0.245
   ...
 # Subtest: round 4 independent subset cover wins while leaving spare packs
 ok 14 - round 4 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 1.9851
+  duration_ms: 0.9754
   ...
 # Subtest: round 4 exact A window has both completable and dead-end choices
 ok 15 - round 4 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 2.5828
+  duration_ms: 1.025
   ...
 # Subtest: round 5 independent subset cover wins while leaving spare packs
 ok 16 - round 5 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 1.4257
+  duration_ms: 0.592
   ...
 # Subtest: round 5 exact A window has both completable and dead-end choices
 ok 17 - round 5 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 0.9678
+  duration_ms: 0.4607
   ...
 # Subtest: round 6 independent subset cover wins while leaving spare packs
 ok 18 - round 6 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 0.4766
+  duration_ms: 0.5357
   ...
 # Subtest: round 6 exact A window has both completable and dead-end choices
 ok 19 - round 6 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 1.8156
+  duration_ms: 0.9216
   ...
 # Subtest: round 7 independent subset cover wins while leaving spare packs
 ok 20 - round 7 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 0.8792
+  duration_ms: 0.501
   ...
 # Subtest: round 7 exact A window has both completable and dead-end choices
 ok 21 - round 7 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 0.5555
+  duration_ms: 0.2757
   ...
 # Subtest: round 8 independent subset cover wins while leaving spare packs
 ok 22 - round 8 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 1.3103
+  duration_ms: 0.5544
   ...
 # Subtest: round 8 exact A window has both completable and dead-end choices
 ok 23 - round 8 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 0.7896
+  duration_ms: 0.4253
   ...
 # Subtest: round 9 independent subset cover wins while leaving spare packs
 ok 24 - round 9 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 4.2619
+  duration_ms: 3.8359
   ...
 # Subtest: round 9 exact A window has both completable and dead-end choices
 ok 25 - round 9 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 2.199
+  duration_ms: 1.3582
   ...
 # Subtest: round 10 independent subset cover wins while leaving spare packs
 ok 26 - round 10 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 1.104
+  duration_ms: 0.5123
   ...
 # Subtest: round 10 exact A window has both completable and dead-end choices
 ok 27 - round 10 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 0.8699
+  duration_ms: 0.4624
   ...
 # Subtest: round 11 independent subset cover wins while leaving spare packs
 ok 28 - round 11 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 16.0491
+  duration_ms: 9.7922
   ...
 # Subtest: round 11 exact A window has both completable and dead-end choices
 ok 29 - round 11 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 4.7673
+  duration_ms: 3.1617
   ...
 # Subtest: round 12 independent subset cover wins while leaving spare packs
 ok 30 - round 12 independent subset cover wins while leaving spare packs
   ---
-  duration_ms: 15.848
+  duration_ms: 11.9352
   ...
 # Subtest: round 12 exact A window has both completable and dead-end choices
 ok 31 - round 12 exact A window has both completable and dead-end choices
   ---
-  duration_ms: 2.8236
+  duration_ms: 2.0729
   ...
 # Subtest: the last window still requires ratio judgement, not just fitting the capacity
 ok 32 - the last window still requires ratio judgement, not just fitting the capacity
   ---
-  duration_ms: 12.7069
+  duration_ms: 8.6323
   ...
 # Subtest: same ratio with different denominators and same count with different ratios remain represented
 ok 33 - same ratio with different denominators and same count with different ratios remain represented
   ---
-  duration_ms: 0.2168
+  duration_ms: 0.2004
   ...
 # Subtest: a wrong allocation can be undone; excess retries use the move budget
 ok 34 - a wrong allocation can be undone; excess retries use the move budget
   ---
-  duration_ms: 8.0762
+  duration_ms: 7.2842
   ...
 # Subtest: capacity, duplicate pack and invalid indices cannot create pieces
 ok 35 - capacity, duplicate pack and invalid indices cannot create pieces
   ---
-  duration_ms: 0.1574
+  duration_ms: 0.135
   ...
 # Subtest: tutorial wins with a visible unused pack and no campaign dependency
 ok 36 - tutorial wins with a visible unused pack and no campaign dependency
   ---
-  duration_ms: 0.1349
+  duration_ms: 0.1257
   ...
 # Subtest: v1 completion is preserved separately; incompatible old drafts cannot enter new puzzles
 ok 37 - v1 completion is preserved separately; incompatible old drafts cannot enter new puzzles
   ---
-  duration_ms: 0.4267
+  duration_ms: 0.4062
   ...
-1..37
-# tests 37
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 38 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 2.0156
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 39 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.3301
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 40 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.3915
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 41 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.3533
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 42 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.3083
+  ...
+# Subtest: pause cancels a pending play state update
+ok 43 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.2226
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 44 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2408
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 45 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 1.8036
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 46 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 80.614
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 47 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.492
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 48 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.2852
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 49 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.3989
+  ...
+1..49
+# tests 49
 # suites 0
-# pass 37
+# pass 49
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 293.1791
+# duration_ms 213.8035
