@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-03T01:55:30.895Z",
-  "sourceHash": "6cd667e6ecd10a37a430f510a612ef6924d9715096f0fb3a1e306179520d3984",
+  "sourceHash": "f1094f6d0bd40e79ebd4b8355afbed7cf66e4e5ea1666a0142e6d64a48a08513",
   "screenshots": [
     "evidence/lumi-tutorial.png",
     "evidence/lumi-ending.png",
@@ -9,7 +9,8 @@
     "evidence/lumi-mobile-win.png",
     "evidence/lumi-notes-mobile.png",
     "evidence/lumi-graph-mobile.png",
-    "evidence/lumi-final-desktop.png"
+    "evidence/lumi-final-desktop.png",
+    "evidence/first-visit-mobile.png"
   ],
   "campaign": {
     "roundsPlayed": 12,
@@ -97,5 +98,17 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:52.257Z",
+    "id": "lumi-mosaic",
+    "firstVisitOff": true,
+    "startedStep": "화면의 목표 비율 확인",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "6cd667e6ecd10a37a430f510a612ef6924d9715096f0fb3a1e306179520d3984",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }

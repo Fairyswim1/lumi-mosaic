@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-03T01:55:30.895Z",
+  "sourceHash": "6cd667e6ecd10a37a430f510a612ef6924d9715096f0fb3a1e306179520d3984",
+  "screenshots": [
+    "evidence/lumi-tutorial.png",
+    "evidence/lumi-ending.png",
+    "evidence/lumi-mobile.png",
+    "evidence/lumi-mobile-win.png",
+    "evidence/lumi-notes-mobile.png",
+    "evidence/lumi-graph-mobile.png",
+    "evidence/lumi-final-desktop.png"
+  ],
+  "campaign": {
+    "roundsPlayed": 12,
+    "allWon": true,
+    "unusedPacksPerRound": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      2
+    ],
+    "mobileFinalRoundWon": true,
+    "failedAllocationRecovered": true,
+    "persistence": true,
+    "ending": true,
+    "counterexample": "Round4: packs 0 and 3 make A exactly 0.5/0.5 but hint reports no solution; undo twice then packs 1->B,2->A,3->B,4->A wins."
+  },
+  "tutorial": {
+    "firstRun": true,
+    "versionKey": "lumi-mosaic-v2",
+    "keyboard": true,
+    "skip": true,
+    "replay": true,
+    "mobile": true,
+    "isolatedProgress": true,
+    "sparePackAtWin": true
+  },
+  "audio": {
+    "effectSignal": "verified",
+    "physicalSpeakerListening": false
+  },
+  "assessment": {
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": false,
+    "exportNote": "Print handler implemented; native print dialog not tested.",
+    "jsonUiRemoved": true,
+    "codes": [
+      "9수04-03"
+    ],
+    "tasksPlayed": 8,
+    "firstWrongThenCorrectNotIndependent": true,
+    "studentExplanation": true,
+    "reviewPersisted": true,
+    "regression": "Unchanged task bank, assessment implementation and records. v2 regression submitted c1 [.2,.5,.3] with explanation; reload restored independent 1/2. Full original eight-task review retained in browser-review-v1.json."
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "katexFractions": true,
+    "noHorizontalOverflow": true,
+    "evidence": "Actual UI at 390px: client=390,scroll=390, fonts loaded, all images loaded. Fraction labels read in DOM; same fonts and asset layout as v1."
+  },
+  "consoleErrors": [],
+  "version": "2.0.0",
+  "captureNote": "Listed images are v1 historical visual references; existing generated assets, fonts and layout retained. New local Chrome captures timed out; no new screenshot claimed. v2 actual browser checks below were performed using visible DOM and controls.",
+  "audioRefresh": {
+    "id": "lumi-mosaic",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  }
+}

@@ -1,0 +1,290 @@
+TAP version 13
+# Subtest: c1 exact independent task and wrong response
+ok 1 - c1 exact independent task and wrong response
+  ---
+  duration_ms: 2.5115
+  ...
+# Subtest: c2 exact independent task and wrong response
+ok 2 - c2 exact independent task and wrong response
+  ---
+  duration_ms: 0.1587
+  ...
+# Subtest: r1 exact independent task and wrong response
+ok 3 - r1 exact independent task and wrong response
+  ---
+  duration_ms: 0.1925
+  ...
+# Subtest: r2 exact independent task and wrong response
+ok 4 - r2 exact independent task and wrong response
+  ---
+  duration_ms: 0.1151
+  ...
+# Subtest: i1 exact independent task and wrong response
+ok 5 - i1 exact independent task and wrong response
+  ---
+  duration_ms: 0.1462
+  ...
+# Subtest: i2 exact independent task and wrong response
+ok 6 - i2 exact independent task and wrong response
+  ---
+  duration_ms: 0.1239
+  ...
+# Subtest: x1 exact independent task and wrong response
+ok 7 - x1 exact independent task and wrong response
+  ---
+  duration_ms: 0.29
+  ...
+# Subtest: x2 exact independent task and wrong response
+ok 8 - x2 exact independent task and wrong response
+  ---
+  duration_ms: 0.131
+  ...
+# Subtest: first incorrect retry and help never count as independent
+ok 9 - first incorrect retry and help never count as independent
+  ---
+  duration_ms: 2.8447
+  ...
+# Subtest: distinct first independent tasks count once; duplicate submissions do not inflate
+ok 10 - distinct first independent tasks count once; duplicate submissions do not inflate
+  ---
+  duration_ms: 0.4895
+  ...
+# Subtest: round 1 independent subset cover wins while leaving spare packs
+ok 11 - round 1 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 2.5895
+  ...
+# Subtest: round 2 independent subset cover wins while leaving spare packs
+ok 12 - round 2 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 0.4156
+  ...
+# Subtest: round 3 independent subset cover wins while leaving spare packs
+ok 13 - round 3 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 0.2475
+  ...
+# Subtest: round 4 independent subset cover wins while leaving spare packs
+ok 14 - round 4 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 1.4039
+  ...
+# Subtest: round 4 exact A window has both completable and dead-end choices
+ok 15 - round 4 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 1.1099
+  ...
+# Subtest: round 5 independent subset cover wins while leaving spare packs
+ok 16 - round 5 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 0.7638
+  ...
+# Subtest: round 5 exact A window has both completable and dead-end choices
+ok 17 - round 5 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 0.6173
+  ...
+# Subtest: round 6 independent subset cover wins while leaving spare packs
+ok 18 - round 6 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 0.7077
+  ...
+# Subtest: round 6 exact A window has both completable and dead-end choices
+ok 19 - round 6 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 1.0908
+  ...
+# Subtest: round 7 independent subset cover wins while leaving spare packs
+ok 20 - round 7 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 0.5273
+  ...
+# Subtest: round 7 exact A window has both completable and dead-end choices
+ok 21 - round 7 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 0.2592
+  ...
+# Subtest: round 8 independent subset cover wins while leaving spare packs
+ok 22 - round 8 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 0.5367
+  ...
+# Subtest: round 8 exact A window has both completable and dead-end choices
+ok 23 - round 8 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 0.4256
+  ...
+# Subtest: round 9 independent subset cover wins while leaving spare packs
+ok 24 - round 9 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 2.6458
+  ...
+# Subtest: round 9 exact A window has both completable and dead-end choices
+ok 25 - round 9 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 2.0283
+  ...
+# Subtest: round 10 independent subset cover wins while leaving spare packs
+ok 26 - round 10 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 0.9418
+  ...
+# Subtest: round 10 exact A window has both completable and dead-end choices
+ok 27 - round 10 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 0.8464
+  ...
+# Subtest: round 11 independent subset cover wins while leaving spare packs
+ok 28 - round 11 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 10.6419
+  ...
+# Subtest: round 11 exact A window has both completable and dead-end choices
+ok 29 - round 11 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 3.47
+  ...
+# Subtest: round 12 independent subset cover wins while leaving spare packs
+ok 30 - round 12 independent subset cover wins while leaving spare packs
+  ---
+  duration_ms: 18.3441
+  ...
+# Subtest: round 12 exact A window has both completable and dead-end choices
+ok 31 - round 12 exact A window has both completable and dead-end choices
+  ---
+  duration_ms: 2.4836
+  ...
+# Subtest: the last window still requires ratio judgement, not just fitting the capacity
+ok 32 - the last window still requires ratio judgement, not just fitting the capacity
+  ---
+  duration_ms: 11.4594
+  ...
+# Subtest: same ratio with different denominators and same count with different ratios remain represented
+ok 33 - same ratio with different denominators and same count with different ratios remain represented
+  ---
+  duration_ms: 0.3327
+  ...
+# Subtest: a wrong allocation can be undone; excess retries use the move budget
+ok 34 - a wrong allocation can be undone; excess retries use the move budget
+  ---
+  duration_ms: 8.7862
+  ...
+# Subtest: capacity, duplicate pack and invalid indices cannot create pieces
+ok 35 - capacity, duplicate pack and invalid indices cannot create pieces
+  ---
+  duration_ms: 0.1502
+  ...
+# Subtest: tutorial wins with a visible unused pack and no campaign dependency
+ok 36 - tutorial wins with a visible unused pack and no campaign dependency
+  ---
+  duration_ms: 0.1394
+  ...
+# Subtest: v1 completion is preserved separately; incompatible old drafts cannot enter new puzzles
+ok 37 - v1 completion is preserved separately; incompatible old drafts cannot enter new puzzles
+  ---
+  duration_ms: 0.4466
+  ...
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 38 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 1.7066
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 39 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.2074
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 40 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.2814
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 41 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.2441
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 42 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.2578
+  ...
+# Subtest: pause cancels a pending play state update
+ok 43 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.2257
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 44 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2459
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 45 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 1.972
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 46 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 91.1738
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 47 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.513
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 48 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.3063
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 49 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.4078
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 50 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 1.546
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 51 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 0.8582
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 52 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 2.9218
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 53 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.5103
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 54 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.2918
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 55 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.4037
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 56 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.3659
+  ...
+1..56
+# tests 56
+# suites 0
+# pass 56
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 268.996
